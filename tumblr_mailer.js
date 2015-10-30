@@ -2,7 +2,7 @@
 var fs = require("fs");
 //adds the ejs module (allows us to use template engine) 
 var ejs = require("ejs");
-//require the APIkeys file, which has all the keys in it (and the require for tumblr and mandrill APIs)
+//require the apiKeys file, which has all the keys in it (and the require for tumblr and mandrill APIs)
 var apiKeys = require("./apiKeys.js");
 //stores the contents of "friend_list.csv" as a string of text
 var csvFile = fs.readFileSync("friend_list.csv", "utf8");
