@@ -1,0 +1,2 @@
+#excludes the API keys from gitHub
+/apiKeys.js
